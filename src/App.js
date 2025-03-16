@@ -6,10 +6,13 @@ import List3 from "./components/List3";
 import Footer from "./components/Footer";
 
 function App() {
+  const tittle = "Hello World";
+
   return (
     <div className="App">
       <Nav />
       <Promo />
+      <h1 className="tittle">{tittle}</h1>
       <List1 />
       <List2 />
       <List3 />
