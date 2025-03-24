@@ -13,8 +13,8 @@ function App() {
       <Nav />
       <Promo />
       <h1 className="tittle">{tittle}</h1>
-      <List1 color="pink"/>
-      <List1 color="red"/>
+      <List1 color="pink"/>{/* how to work one prop */}
+      <List1 color="red"/>{/* how to pass props to a component */}
       <List2 />
       <List3 />
       <Footer />
