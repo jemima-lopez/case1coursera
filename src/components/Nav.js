@@ -3,10 +3,10 @@ function Nav() {
   return (
     <nav className="main-nav">
       <ul>
-        <il>Home</il>
-        <il>Articles</il>
-        <il>About</il>
-        <il>Contact</il>
+        <li>Home</li>
+        <li>Articles</li>
+        <li>About</li>
+        <li>Contact</li>
       </ul>
     </nav>
   )

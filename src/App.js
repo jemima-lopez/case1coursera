@@ -13,7 +13,8 @@ function App() {
       <Nav />
       <Promo />
       <h1 className="tittle">{tittle}</h1>
-      <List1 />
+      <List1 color="pink"/>
+      <List1 color="red"/>
       <List2 />
       <List3 />
       <Footer />
