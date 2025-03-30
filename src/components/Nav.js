@@ -1,8 +1,8 @@
 
 function Nav() {
   return (
-    <nav className="main-nav" style={{backgroundColor: "lightblue", fontSize: "1.5rem", fontWeight: "bold", color: "rgb(193, 71, 227)"}}>{/*how to work css*/}
-      <ul>
+    <nav className="main-nav" style={{backgroundColor: "rgb(228, 181, 241) ", fontSize: "2rem", fontWeight: "bold", fontFamily: "Arial, sans-serif", color: "rgb(193, 71, 227) "}}>{/*how to work css*/}
+      <ul className="nav-list" style={{listStyleType: "none", display: "flex", justifyContent: "space-around", padding: "0"}}> 
         <li>Home</li>
         <li>Articles</li>
         <li>About</li>

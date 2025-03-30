@@ -1,7 +1,12 @@
 function List2() {
 
   const styles = {
-    color: "pink",  
+    color: "tomato",
+    fontSice: "4px",
+    fontWeight: "bold",
+    fontFamily: "tahoma",
+    textTransform: "uppercase",
+    textAlign: "center",
   };//passing styles object to h2 element
 
   return (
