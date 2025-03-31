@@ -1,7 +1,17 @@
 function List2() {
+
+  const styles = {
+    color: "tomato",
+    fontSice: "4px",
+    fontWeight: "bold",
+    fontFamily: "tahoma",
+    textTransform: "uppercase",
+    textAlign: "center",
+  };//passing styles object to h2 element
+
   return (
     <div className="list-intro">
-      <h2>I love front-end web development</h2>
+      <h2 style={styles}>I love front-end web development</h2>
       <div>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum magnam
