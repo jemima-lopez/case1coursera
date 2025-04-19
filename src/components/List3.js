@@ -1,15 +1,15 @@
-
-function List3() {
+function List3(props) {
   return (
     <div className="list-intro">
       <h2>My journey to become a React developer</h2>
       <div>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum magnam
-          tenetur excepturi obcaecati asperiores voluptates neque dolor mollitia
-          hic adipisci ducimus praesentium odit, eos deserunt quibusdam ipsam
-          tempora repudiandae modi.
+          <div>{props.title}</div>
+          <br />
+          orem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.
         </p>
+        <div>{props.color}</div>
         <p className="link">Read more...</p>
       </div>
     </div>

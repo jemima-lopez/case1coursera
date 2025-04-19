@@ -1,4 +1,4 @@
-function List2() {
+function List2(props) {
 
   const styles = {
     color: "tomato",
@@ -14,12 +14,9 @@ function List2() {
       <h2 style={styles}>I love front-end web development</h2>
       <div>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum magnam
-          tenetur excepturi obcaecati asperiores voluptates neque dolor mollitia
-          hic adipisci ducimus praesentium odit, eos deserunt quibusdam ipsam
-          tempora repudiandae modi.
+          {props.tittle}
         </p>
-        <p className="link">Read more...</p>
+        <p className="link">Read more about...</p>
       </div>
     </div>
   );
