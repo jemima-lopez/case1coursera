@@ -5,34 +5,38 @@ import List2 from "./components/List2";
 import List3 from "./components/List3";
 import Footer from "./components/Footer";
 import Logo from "./components/Logo";
-<<<<<<< HEAD
-import reactimg from "./reactimg.png";
-=======
-import reactImg from "./reactImg.png";
->>>>>>> db068ebfcb06110b2294639ed34e9635b075bd2a
+import imgr from "./imgs/imgr.png";
+import img2 from "./imgs/img2.jpg";
+import img3 from "./imgs/img3.jpg";
+import img4 from "./imgs/img4.jpg";
+import img5 from "./imgs/img5.jpg";
+import img6 from "./imgs/img6.jpg";
+import img7 from "./imgs/img7.jpg";
+import img8 from "./imgs/img8.jpg";
 import "./App.css";
 
 function App() {
   const tittle = "Hello World";
+
+ 
 
   return (
     <div className="App">
       <Nav />
       <Promo />
       <h1 className="tittle">{tittle}</h1>
-<<<<<<< HEAD
       <List1 color="I'm a props" />
-      <List1 color="I'm a props 2" />   
-      <List2 tittle="My app.com" />     
-      <List3 tittle="About us" color="dark" />      
-      <Logo src={reactimg} height={300} description="REACT IMAGEN" />  
-=======
-      <List1 color="I'm a props" />{/* Demonstrates passing a single prop */}
-      <List1 color="I'm a props2" />{/* Demonstrates passing another prop */}
-      <List2 tittle="My app.com" />{/* Example of passing a prop to List2 */}
-      /* Passing multiple props */
-        <Logo img={reactImg} height={300} description="REACT IMAGEN" />{/* Corrected prop usage for Logo */}
->>>>>>> db068ebfcb06110b2294639ed34e9635b075bd2a
+      <List1 color="I'm a props 2" />
+      <List2 tittle="My app.com" />
+      <List3 tittle="About us" color="dark" />
+      <Logo src={imgr} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img2} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img3} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img4} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img5} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img6} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img7} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img8} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
       <Footer />
     </div>
   );
