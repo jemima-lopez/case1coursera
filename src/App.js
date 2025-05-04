@@ -14,6 +14,7 @@ import img6 from "./imgs/img6.jpg";
 import img7 from "./imgs/img7.jpg";
 import img8 from "./imgs/img8.jpg";
 import "./App.css";
+import Btn from "./components/Btn";
 
 function App() {
   const tittle = "Hello World";
@@ -27,16 +28,17 @@ function App() {
       <h1 className="tittle">{tittle}</h1>
       <List1 color="I'm a props" />
       <List1 color="I'm a props 2" />
-      <List2 tittle="My app.com" />
+      <List2 tittle="My first app.com" />
       <List3 tittle="About us" color="dark" />
-      <Logo src={imgr} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
-      <Logo src={img2} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
-      <Logo src={img3} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
-      <Logo src={img4} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
-      <Logo src={img5} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
-      <Logo src={img6} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
-      <Logo src={img7} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
-      <Logo src={img8} alt={Logo} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={imgr} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img2} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img3} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img4} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img5} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img6} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img7} height={200} width={400} description="REACT IMAGEN" />
+      <Logo src={img8} height={200} width={400} description="REACT IMAGEN" />
+      <Btn />
       <Footer />
     </div>
   );
